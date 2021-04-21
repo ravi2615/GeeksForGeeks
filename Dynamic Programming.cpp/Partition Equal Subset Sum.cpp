@@ -41,7 +41,7 @@ public:
             sum+=arr[i];
         }
         if(sum%2==0){
-            subsetSum(arr,sum/2,N);
+            return subsetSum(arr,sum/2,N);
         }
         else
         return 0;
